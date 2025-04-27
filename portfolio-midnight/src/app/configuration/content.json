@@ -1,0 +1,17 @@
+{
+  "header": {
+    "presentation": "Hi, I'm",
+    "name": "John Doe",
+    "complement": "I'm a Software Developer",
+    "button": {
+      "label": "Explore",
+      "type": "button",
+      "href": "#"    
+    },
+    "link": {
+      "label": "Visit my blog",
+      "type": "link",
+      "href": "#"
+    }
+  }
+}

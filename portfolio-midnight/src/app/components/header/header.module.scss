@@ -1,0 +1,47 @@
+@import '../../styles/colors';
+
+.header {
+  background-color: $midnight;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 20px;
+  
+  .presentation {
+    text-align: center;
+    
+    h2 {
+      padding: 0;
+      margin: 0;
+      color: white;
+      font-weight: normal;
+  
+      .name {
+        color: $light-blue;
+      }
+    }
+  }
+
+  button {
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $light-blue;
+    border: 2px solid $light-blue;
+    transition: all 300ms;
+    font-family: inherit;
+    font-size: 15px;
+
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  }
+
+  a {
+    color: white;
+  }
+}
