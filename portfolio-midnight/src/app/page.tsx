@@ -22,6 +22,8 @@ export default function Home() {
   return (
     <main>
       <HeaderSection configuration={portfolioContent.header} />
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quo recusandae architecto omnis dicta nulla minus debitis quis asperiores cumque! Qui, est! Sapiente saepe beatae eligendi quo quis possimus nesciunt.</p>
     </main>
   );
 }
