@@ -13,5 +13,9 @@
       "type": "link",
       "href": "#"
     }
+  },
+  "intro": {
+    "image": "",
+    "description": "Lorem Ipsum is simply <span>dummy</span> text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the <span>1500s</span>, when an unknown printer took a galley of  type and <span>scrambled</span> it to make a type specimen book. It has survived not  only five centuries."
   }
 }
