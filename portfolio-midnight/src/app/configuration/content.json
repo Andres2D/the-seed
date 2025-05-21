@@ -17,5 +17,36 @@
   "intro": {
     "image": "",
     "description": "Lorem Ipsum is simply <span>dummy</span> text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the <span>1500s</span>, when an unknown printer took a galley of  type and <span>scrambled</span> it to make a type specimen book. It has survived not  only five centuries."
-  }
+  },
+  "experience": [
+    {
+      "key": "experience1",
+      "title": "Job Experience 1",
+      "place": "Company 1",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2025",
+      "placeLink": "https://www.google.ca/",
+      "icon": "job"
+    },
+    {
+      "key": "experience2",
+      "title": "Job Experience 2",
+      "place": "Company 2",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2024",
+      "endDate": "2025",
+      "placeLink": "https://www.google.ca/",
+      "icon": "job"
+    },
+    {
+      "key": "experience3",
+      "title": "Education 1",
+      "place": "School 1",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2023",
+      "endDate": "2024",
+      "placeLink": "https://www.google.ca/",
+      "icon": "education"
+    }
+  ]
 }

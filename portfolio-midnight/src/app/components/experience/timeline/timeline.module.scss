@@ -1,0 +1,17 @@
+@import '../../../styles/colors';
+
+.timeline {
+  margin-bottom: 50px;
+
+  a {
+    color: $light-blue;
+  }
+
+  p {
+    color: black;
+  }
+
+  .dates {
+    color: white;
+  }
+}
