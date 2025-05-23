@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import styles from './intro.module.scss'; 
 import { mockProfile } from '../../assets';
+import { Intro } from '@/app/interfaces/content.interface';
 
 type Props = {
-  configuration: any;
+  configuration: Intro;
 }
 
 const IntroSection: React.FC<Props> = ({configuration}) => {

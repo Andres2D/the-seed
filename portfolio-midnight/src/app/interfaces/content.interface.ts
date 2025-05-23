@@ -2,6 +2,7 @@ export interface Content {
   header: Header;
   intro: Intro;
   experience: Experience[];
+  skillsCategories: SkillsCategory[];
 }
 
 export interface Header {
@@ -32,4 +33,17 @@ export interface Experience {
   endDate?: string;
   placeLink?: string;
   icon?: 'job' | 'education';
+}
+
+export interface SkillsCategory {
+  key: string;
+  name: string;
+  skills: Skill[];
+}
+
+export interface Skill {
+  key: string;
+  title: string;
+  image: any;
+  color: string;
 }
