@@ -1,0 +1,17 @@
+@import '../../styles/colors';
+
+.experience {
+  background-color: $midnight;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  color: white;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}

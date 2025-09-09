@@ -1,0 +1,180 @@
+{
+  "header": {
+    "presentation": "Hi, I'm",
+    "name": "John Doe",
+    "complement": "I'm a Software Developer",
+    "button": {
+      "label": "Explore",
+      "type": "button",
+      "href": "#"    
+    },
+    "link": {
+      "label": "Visit my blog",
+      "type": "link",
+      "href": "#"
+    }
+  },
+  "intro": {
+    "image": "",
+    "description": "Lorem Ipsum is simply <span>dummy</span> text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the <span>1500s</span>, when an unknown printer took a galley of  type and <span>scrambled</span> it to make a type specimen book. It has survived not  only five centuries."
+  },
+  "experience": [
+    {
+      "key": "experience1",
+      "title": "Job Experience 1",
+      "place": "Company 1",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2025",
+      "placeLink": "https://www.google.ca/",
+      "icon": "job"
+    },
+    {
+      "key": "experience2",
+      "title": "Job Experience 2",
+      "place": "Company 2",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2024",
+      "endDate": "2025",
+      "placeLink": "https://www.google.ca/",
+      "icon": "job"
+    },
+    {
+      "key": "experience3",
+      "title": "Education 1",
+      "place": "School 1",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "initialDate": "2023",
+      "endDate": "2024",
+      "placeLink": "https://www.google.ca/",
+      "icon": "education"
+    }
+  ],
+  "skillsCategories": [
+    {
+      "key": "a",
+      "name": "CATEGORY ONE",
+      "skills": [
+        {
+          "key": "0",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        },
+        {
+          "key": "1",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        },
+        {
+          "key": "2",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        },
+        {
+          "key": "3",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        },
+        {
+          "key": "4",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        },
+        {
+          "key": "5",
+          "title": "HTML",
+          "image": "",
+          "color": "#E44D26"
+        }
+      ]
+    },
+    {
+      "key": "b",
+      "name": "CATEGORY TWO",
+      "skills": [
+        {
+          "key": "0",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        },
+        {
+          "key": "1",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        },
+        {
+          "key": "2",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        },
+        {
+          "key": "3",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        },
+        {
+          "key": "4",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        },
+        {
+          "key": "5",
+          "title": "JS",
+          "image": "",
+          "color": "#F7DF1E"
+        }
+      ]
+    },
+    {
+      "key": "c",
+      "name": "CATEGORY THREE",
+      "skills": [
+        {
+          "key": "0",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        },
+        {
+          "key": "1",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        },
+        {
+          "key": "2",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        },
+        {
+          "key": "3",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        },
+        {
+          "key": "4",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        },
+        {
+          "key": "5",
+          "title": "CSS",
+          "image": "",
+          "color": "#264DE4"
+        }
+      ]
+    }
+  ]
+}

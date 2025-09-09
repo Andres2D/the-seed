@@ -1,0 +1,66 @@
+@import '../../styles/colors';
+
+.intro {
+  background-color: $clear-blue;
+  height: 100vh;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+  }
+  
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80%;
+
+    .profile {
+      filter: drop-shadow(0 0 0.75rem $light-blue);
+    }
+
+    p {
+      width: 600px;
+      font-size: 28px;
+      padding-right: 10px;
+  
+      span {
+        color: $light-blue;
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .intro {
+    .description {
+      .profile {
+        width: 220px;
+        height: auto;
+      }
+    
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    .description {
+      flex-direction: column;
+  
+      p {
+        width: auto;
+        text-align: center;
+        padding: 5px;
+      }
+    }
+  }
+}
+
